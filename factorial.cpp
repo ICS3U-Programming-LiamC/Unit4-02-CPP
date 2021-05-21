@@ -41,7 +41,7 @@ int main() {
 
                 // once the counter is greater than userNum
                 // it will stop the loop
-                } while (counter < userNum) {
+                } while (counter < userNum);
                 // print the results to the user
                 std::cout << userNum << " factorial is " << factorialNum;
             } else {
